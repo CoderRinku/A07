@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Emma Wilson",
+    "email": "emma.wilson@example.com",
+    "picture": "https://ui-avatars.com/api/?name=Emma+Wilson&background=214D38&color=fff&size=150",
+    "status": "on-track",
+    "days_since_contact": 3,
+    "goal": 14,
+    "next_due_date": "2026-04-27T10:00:00Z",
+    "bio": "Always up for a coffee and talking about new design trends.",
+    "tags": ["College", "Designer", "Coffee"]
+  },
+  {
+    "id": 2,
+    "name": "James Wright",
+    "email": "james.w@example.com",
+    "picture": "https://ui-avatars.com/api/?name=James+Wright&background=0F172A&color=fff&size=150",
+    "status": "almost due",
+    "days_since_contact": 25,
+    "goal": 30,
+    "next_due_date": "2026-04-18T10:00:00Z",
+    "bio": "Tech bro. We usually play FIFA on weekends.",
+    "tags": ["Gaming", "Tech", "High School"]
+  },
+  {
+    "id": 3,
+    "name": "Sophia Martinez",
+    "email": "sophia.m@example.com",
+    "picture": "https://ui-avatars.com/api/?name=Sophia+Martinez&background=8B5CF6&color=fff&size=150",
+    "status": "overdue",
+    "days_since_contact": 45,
+    "goal": 30,
+    "next_due_date": "2026-03-20T10:00:00Z",
+    "bio": "Moved to Canada last year. Need to catch up on a video call.",
+    "tags": ["Long Distance", "Childhood"]
+  },
+  {
+    "id": 4,
+    "name": "Liam Johnson",
+    "email": "liam.j@example.com",
+    "picture": "https://ui-avatars.com/api/?name=Liam+Johnson&background=EA580C&color=fff&size=150",
+    "status": "on-track",
+    "days_since_contact": 10,
+    "goal": 60,
+    "next_due_date": "2026-05-15T10:00:00Z",
+    "bio": "My gym partner and fitness motivator.",
+    "tags": ["Gym", "Fitness"]
+  },
+  {
+    "id": 5,
+    "name": "Olivia Brown",
+    "email": "olivia.b@example.com",
+    "picture": "https://ui-avatars.com/api/?name=Olivia+Brown&background=0284C7&color=fff&size=150",
+    "status": "almost due",
+    "days_since_contact": 12,
+    "goal": 14,
+    "next_due_date": "2026-04-18T10:00:00Z",
+    "bio": "Book club buddy. We share a lot of reading lists.",
+    "tags": ["Books", "Work"]
+  },
+  {
+    "id": 6,
+    "name": "Noah Davis",
+    "email": "noah.d@example.com",
+    "picture": "https://ui-avatars.com/api/?name=Noah+Davis&background=DC2626&color=fff&size=150",
+    "status": "overdue",
+    "days_since_contact": 100,
+    "goal": 90,
+    "next_due_date": "2026-01-10T10:00:00Z",
+    "bio": "Former colleague. Great at giving career advice.",
+    "tags": ["Mentor", "Career", "Colleague"]
+  }
+]
