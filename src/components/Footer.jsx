@@ -11,19 +11,21 @@ export default function Footer() {
           Track your interactions, set goals, and never lose touch with the people who matter most.
         </p>
         
+        {/* Social Links - Fixed Size */}
         <p className="text-xs font-semibold tracking-widest uppercase mb-4 text-green-200">Social Links</p>
-        <div className="flex gap-4 mb-12">
-          <Link href="#" className="bg-white p-2.5 rounded-full hover:scale-110 transition flex items-center justify-center w-10 h-10">
-            <Image src="/assets/facebook.png" alt="Facebook" width={20} height={20} />
+        <div className="flex gap-6 mb-12 items-center">
+          <Link href="#" className="hover:scale-110 transition">
+            <Image src="/assets/facebook.png" alt="Facebook" width={40} height={40} className="object-contain" />
           </Link>
-          <Link href="#" className="bg-white p-2.5 rounded-full hover:scale-110 transition flex items-center justify-center w-10 h-10">
-            <Image src="/assets/twitter.png" alt="Twitter" width={20} height={20} />
+          <Link href="#" className="hover:scale-110 transition">
+            <Image src="/assets/twitter.png" alt="Twitter" width={40} height={40} className="object-contain" />
           </Link>
-          <Link href="#" className="bg-white p-2.5 rounded-full hover:scale-110 transition flex items-center justify-center w-10 h-10">
-            <Image src="/assets/instagram.png" alt="Instagram" width={20} height={20} />
+          <Link href="#" className="hover:scale-110 transition">
+            <Image src="/assets/instagram.png" alt="Instagram" width={40} height={40} className="object-contain" />
           </Link>
         </div>
         
+        {/* Bottom Links */}
         <div className="w-full border-t border-white/20 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-green-200 font-medium">
           <p>© {new Date().getFullYear()} KeenKeeper. All rights reserved.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
